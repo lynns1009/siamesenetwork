@@ -1,10 +1,4 @@
-﻿'''
-Scaffholding code to get you started for the 2nd assignment.
-    
-    Liying Shi N10020969
-  
 
-'''
 import random
 import numpy as np
 from tensorflow.contrib import keras
