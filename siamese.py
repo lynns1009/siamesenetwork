@@ -1,4 +1,11 @@
-
+'''
+Scaffholding code to get you started for the 2nd assignment.
+Team 10:
+    
+    Liying Shi N10020969
+    Wai Wing Chan N9781463
+    Zhiyi Wu N9589147
+'''
 import random
 import numpy as np
 from tensorflow.contrib import keras
