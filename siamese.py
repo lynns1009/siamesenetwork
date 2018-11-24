@@ -13,7 +13,6 @@ import numpy as np
 from tensorflow.contrib import keras
 from tensorflow.contrib.keras import backend as K
 import assign2_utils
-#------------------------------------------------------------------------------
 
 def euclidean_distance(vects):
 
@@ -24,7 +23,6 @@ def euclidean_distance(vects):
     x, y = vects
     return K.sqrt(K.maximum(K.sum(K.square(x - y), axis=1, keepdims=True), K.epsilon()))
 
-#------------------------------------------------------------------------------
 def contrastive_loss(y_true, y_pred):
 
     '''
